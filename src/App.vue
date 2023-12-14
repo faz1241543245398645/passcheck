@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  
+  <PasswordField msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PasswordField from './components/PasswordField.vue';
+
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PasswordField
   }
 }
 </script>
